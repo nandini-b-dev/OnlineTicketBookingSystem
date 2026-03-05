@@ -7,7 +7,8 @@ The system provides functionalities such as ticket booking, viewing available ti
 ## Technologies Used
 - Java
 - OOP Concepts
-- File Handling / Database (if used)
+- File Handling
+- Database 
 
 ## Features
 - User can book tickets
