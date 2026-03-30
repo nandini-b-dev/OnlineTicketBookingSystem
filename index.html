@@ -5,7 +5,20 @@
     <link rel="stylesheet" href="./style.css">
   </head>
 
-  <script>
+  <body>
+    <h2>Login</h2>
+
+    <div>
+      Email:
+      <input type="text" name="email" /><br /><br />
+
+      Password:
+      <input type="password" name="password" /><br /><br />
+
+      <button type="button" onclick="loginUser()">Login</button>
+    </div>
+
+     <script>
     function loginUser() {
       var email = document.getElementsByName("email")[0].value;
       var password = document.getElementsByName("password")[0].value;
@@ -19,19 +32,6 @@
       return false;
     }
   </script>
-
-  <body>
-    <h2>Login</h2>
-
-    <form>
-      Email:
-      <input type="text" name="email" /><br /><br />
-
-      Password:
-      <input type="password" name="password" /><br /><br />
-
-      <button type="button" onclick="loginUser()">Login</button>
-    </form>
 
     <a href="register.html">Register</a>
   </body>
