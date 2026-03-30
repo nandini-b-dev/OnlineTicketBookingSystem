@@ -6,8 +6,12 @@
 
   <body>
     <h1>Welcome! Booking Ticket</h1>
-
-    <form action="book" method="post">
+    <script>
+      function bookTicket(){
+        alert("Ticket booked successfully!");
+      }
+    </script>
+    <div>
       Name:
       <input type="text" name="name" /><br /><br />
 
@@ -17,7 +21,7 @@
       Seats:
       <input type="number" name="seats" /><br /><br />
 
-      <button type="submit">Book Ticket</button>
-    </form>
+      <button type="button" onclick="bookTicket()">Book Ticket</button>
+    </div>
   </body>
 </html>
